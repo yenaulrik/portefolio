@@ -1,0 +1,261 @@
+/*   FONTS   */
+html{
+    font-size: 67.2%;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0 auto;
+    background-color: #0043653b;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+/*   CLASSICS   */
+.container{
+    width: 70%;
+    margin: 10px auto;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.max-w{
+    width: 100%;
+}
+.max-h{
+    height: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.btw{
+    justify-content: space-between;
+}
+.ard{
+    justify-content: space-around;
+}
+.center{
+    text-align: center;
+}
+.al-center{
+    align-items: center;
+}
+.img-150 img{
+    max-height: 150px;
+}
+.img-250 img{
+    max-height: 250px;
+}
+.img-400 img{
+    max-height: 400px;
+}
+.shd{
+    box-shadow: 6px 6px 6px grey;
+}
+/************/
+/*  PAGE    */
+/************/
+header{
+    
+}
+header img{
+    z-index: 4;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px grey;
+    
+}
+#title{
+    width: 80%;
+}
+#photo{
+    width: 20%;
+}
+header .menu-nav{
+    background-color: #004365;
+    box-shadow: 0px 4px 10px -2px gray;
+
+}
+.mobile{
+    display: none;
+}
+#card-intro{
+    padding: 12px;
+}
+.menu-nav ul{
+    padding: 0;
+}
+.menu-nav li{
+    list-style-type: none;
+}
+.menu-nav li > a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 25px 10px 25px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 200ms ease-in-out;
+}
+.menu-nav li > a:hover{
+    background-color: #ffffff21;
+}
+
+main > section{
+    background-color: white;
+    box-shadow: 0px 4px 10px -2px gray;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+#presentation{
+    text-align: justify;
+    line-height: 2rem;
+}
+#skill i, #skill img{
+    font-size: 40px;
+    max-height: 40px;
+    color: royalblue;
+}
+
+#skill > article{
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: 10px auto 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px -2px gray;
+    border-radius: 5px;
+    transition: transform 300ms ease-in-out;
+    
+}
+#skill > article:hover{
+    
+    transform: scale(1.1);
+}
+
+#projets article{
+    width: 35%;
+    padding: 20px;
+    margin: 10px auto 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px -2px gray;
+    border-radius: 5px;
+    transition: transform 300ms ease-in-out;
+    position: relative;
+}
+#projets article > div{
+    display: flex;
+    flex-direction: column;
+}
+#projets article > div > div{
+    display: flex;
+    flex-direction: column;
+}
+#projets article:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#projets article a{
+    text-transform: none;
+    color: black;
+}
+#projets article img{
+    width: 100%;
+}
+#contact i{
+    font-size: 2rem;
+    color: grey;
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+@media screen and (max-width: 640px) {
+    h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+    }
+    h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    #title{
+        width: 70%;
+    }
+    #photo{
+        width: 30%;
+    }
+    #cv{
+        width: 20%;
+    }
+    #cv img{
+        width: 100%;
+    }
+    #contact-content{
+        width: 70%;
+    }
+    #contact p{
+        font-size: 1.4rem;
+    }
+    #photo img{
+        width: 100%;
+    }
+    .mobile{
+        display: block;
+    }
+    .screen{
+        display: none;
+    }
+    .menu-nav{
+        order: 1;
+        z-index: 10;
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .menu-nav li > a{
+        padding: 5px 10px 5px;
+    }
+
+    #card-intro{
+        order: 2;
+        margin-top: 40px;
+    }
+    main > section{
+        width: 90%;
+    }
+
+    #projets article{
+        width: 96%;
+        padding: 10px 10px 10px;
+    }
+    
+    #projets article img{
+        width: 100%;
+    }
+    #skill > article{
+        width: 40%;
+        padding: 10px 10px 10px;
+    }
+
+    #projets article:hover{
+        
+        transform: none;
+    }
+}

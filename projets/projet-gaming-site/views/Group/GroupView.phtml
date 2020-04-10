@@ -1,0 +1,30 @@
+<main class="container box-shd">
+    <?php include'views/Group/MenuGroup.phtml' ;?>
+    <section>
+        <?php if(isset($error)):?>
+            <div class="error">
+                <h3><?= $error ?></h3>
+            </div>
+        <?php endif;?>
+
+        <h2>Derniers articles</h2>
+        
+        <?php foreach($articles as $article):?>
+            <article class="row box">
+                <div class="full-width box content-40">
+                    <img src="images/games/<?= $article['article_img']?>" alt="">
+                </div>
+                <div class="col box content-60">
+                    <h3><?= htmlspecialchars($article['article_title'])?> 
+                        <?php if(isset($_SESSION['user']) && $_SESSION['user']['group_id'] == $group['group_id']):?>
+                            <a href="?page=Articles/Edit&article=<?= $article['article_id']?>&group_id=<?= $group['group_id']?>"><i class="fas fa-edit"></i></a> 
+                            <a href="?page=Articles/Delete&article=<?= $article['article_id']?>&group_id=<?= $group['group_id']?>"><i class="fas fa-trash-alt"></i></a>
+                        <?php endif;?>
+                    </h3>
+                    <div class="caption"> écrit par : <?= htmlspecialchars($article['user_pseudo'])?> le <?= $article['article_creation_date']?></div>
+                    <p><?= htmlspecialchars($article['article_content'])?></p>
+                </div>
+            </article>
+        <?php endforeach;?>
+    </section>
+</main>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS NORMALIZE & FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- FONTS GOOGLE -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">	
+    <link href="https://fonts.googleapis.com/css?family=Baumans&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">-->    
+    <!-- CSS PERSO -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="javascript/main.js"></script>
+    <title>ANL test</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="?page=home"><img src="images/logo-anl-badge.png"></a>
+        </div>
+        <nav id="menu-screen">
+            <ul>
+                <li><a href="?page=home">accueil</a></li>
+                <li><a href="?page=about">à propos</a></li>
+                <li><a href="?page=carros">carrosserie</a></li>
+                <li><a href="?page=meca">mécanique</a></li>
+                <li><a href="?page=Resto">Restauration</a></li>
+                <li><a href="?page=contact">contact</a></li>
+            </ul> 
+        </nav>
+        <div id="menu-mobile">
+            <button class="hamburger"><i class="fas fa-bars"></i></button>
+            <button class="cross"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="phone">
+            <p><i class="fas fa-mobile-alt"></i> 06 33 35 33 61</p>
+        </div>
+    </header>
+    <div class="menu">
+        <ul>
+            <a href="?page=home"><li>accueil</li></a>
+            <a href="?page=about"><li>à propos</li></a>
+            <a href="?page=carros"><li>carrosserie</li></a>
+            <a href="?page=meca"><li>mécanique</li></a>
+            <a href="?page=Resto"><li>Restauration</li></a>
+            <a href="?page=contact"><li>contact</li></a>
+        </ul> 
+    </div>
+    <?php include 'pages/'.$load ; ?>
+
+    <footer id="footer-screen">
+        <div>
+            <p><strong>Copyright : all rights reserved</strong></p>
+        </div>
+        <ul></a>
+            <li><a href="?page=carros"><strong>Carrosserie :</strong></a></li>
+            <li><a href="?page=carros">Débosselage</a></li>
+            <li><a href="?page=carros">Redressage de tôle</a></li>
+            <li><a href="?page=carros">Phares et optiques</a></li>
+        </ul>
+        <ul>
+            <li><a href="?page=carros#peinture"><strong>Peinture :</strong></a></li>
+            <li><a href="?page=carros#peinture">Complète ou partielle</a></li>
+            <li><a href="?page=carros#peinture">Peinture auto mat, brillante, nacré ou raptor</a></li>
+        </ul>
+        <ul>
+            <li><a href="?page=meca"><strong>Mécanique :</strong></a></li>
+            <li><a href="?page=meca#mecaniques">Vidange</a></li>
+            <li><a href="?page=meca#mecaniques">Freins</a></li>
+            <li><a href="?page=meca#mecaniques">Batterie</a></li>
+        </ul>
+        <ul>
+            <li><a href=""><strong>Vente de véhicules occasions</strong></a></li>
+            <li><a href=""><strong>Vente de youngtimers</strong></a></li>
+            <li><a href=""><strong>Restauration de véhicules de collection</strong></a></li>
+            <li><a href=""><strong>Vente de pièces auto d'occasion</strong></a></li>
+        </ul>
+        <ul>
+            <li><a href="?page=contact">CONTACT</a></li>
+            <li><a href="?page=about">A PROPOS</a></li>
+            <li><a href="?page=Resto">RESTAURATION AUTO</a></li>
+        </ul>
+        <ul>
+            <li><a href="">DEVIS</a></li>
+            <li><a href="">PRENDRE UN RDV</a></li>
+            <li><a href="">MENTIONS LEGALES</a></li>
+        </ul>
+    </footer>
+    <footer id="footer-mobile">
+        <ul>
+            <li><a href="">MENTIONS LEGALES</a></li>
+            <li><strong>Copyright : all rights reserved</strong></li>
+        </ul>
+    </footer>
+</body>
+</html>
