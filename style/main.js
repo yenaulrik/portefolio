@@ -18,6 +18,12 @@ $(function(){
             case "auto-newlife":
                 window.open("projets/projet_Lagraa", '_blank');
                 break;
+            case "SymBNB":
+                window.open("https://github.com/yenaulrik/SymBNB", '_blank');
+                break;
+            case "auto-newlife-2":
+                window.open("https://github.com/nadsud/anl-projet/tree/develop", '_blank');
+                break;
             default:
                 break;
         }
