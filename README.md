@@ -17,6 +17,13 @@ puis d'installer la base de donnée fournit dans le dossier gaming
 - changer si besoin les lignes ``7`` (_dns_) ``8`` (_password_) et ``9`` (_user_)
 
 ## Différents projets présents dans le porte folio
+* Projet SymBNB [lien Github](https://github.com/yenaulrik/SymBNB) 
+(_Projet symfony_)
+code : html, php, css, sql, js, jquery, twig
+
+* Projet Auto-NewLife 2 [lien github](https://github.com/nadsud/anl-projet/tree/develop) 
+(_intégration & aide_)
+code : html, css, (puis bientôt js et php)
 
 * Projet gaming-site [visible ici](http://www.vincent-caraty-dev.fr/projets/projet-gaming-site/)
 (_Projet principale_)
@@ -37,11 +44,16 @@ Site visant à toucher les groupes de joueurs, ils créent des groupes visant à
 * recherche de groupe en fonction d'un jeu, nom de jeu, tag
 * affichage avec javascript/jquery
 
-### Projet Auto-NewLife
+### Projet Auto-NewLife et sa deuxieme version
 
 site simple visant à travailler la mise en page depuis une maquette créé par [Nadège Lagraa](https://www.linkedin.com/in/nad%C3%A8ge-lagraa-webdesigner30/)
 
 * site responsive
 * pages gérés et appelées via instruction simple en php
+* la deuxieme version du site est faite pour accompagner au mieux son propriétaire afin de l'aider à le développer
 
+### Projet SymBNB
+
+Site visant à apprendre symfony, sur le thème d'un site Ecommerce avec connection client, site de location d'habitations/chambres
+Formation annimée par [Lior Chamla](https://www.linkedin.com/in/lior-chamla/)
 
