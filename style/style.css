@@ -9,15 +9,20 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 4rem;
+    color: slategray;
 }
 h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 3.2rem;
+    font-style: italic;
+    color: slategray;
 }
 h3{
     font-size: 2rem;
+    font-family: 'Merriweather', serif;
 }
 /*   CLASSICS   */
 .container{
@@ -68,9 +73,7 @@ h3{
 /************/
 /*  PAGE    */
 /************/
-header{
-    
-}
+
 header img{
     z-index: 4;
     border-radius: 5px;
@@ -80,13 +83,19 @@ header img{
 #title{
     width: 80%;
 }
+.tlt-info h3{
+    margin-bottom: 10px;
+}
+.tlt-info p{
+    font-style: italic;
+    margin-top: 5px;
+}
 #photo{
     width: 20%;
 }
 header .menu-nav{
     background-color: #004365;
     box-shadow: 0px 4px 10px -2px gray;
-
 }
 .mobile{
     display: none;
@@ -102,7 +111,8 @@ header .menu-nav{
 }
 .menu-nav li > a{
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    text-transform: uppercase;
+    font-size: 1.8rem;
     display: inline-block;
     padding: 25px 10px 25px;
     text-decoration: none;
@@ -125,13 +135,13 @@ main > section{
     text-align: justify;
     line-height: 2rem;
 }
-#skill i, #skill img{
+.skill i, .skill img{
     font-size: 40px;
     max-height: 40px;
     color: royalblue;
 }
 
-#skill > article{
+.skill > article{
     display: inline-block;
     width: 20%;
     padding: 20px;
@@ -142,8 +152,9 @@ main > section{
     transition: transform 300ms ease-in-out;
     
 }
-#skill > article:hover{
-    
+.skill > article:hover{
+    z-index: 1000;
+    background-color: white;
     transform: scale(1.1);
 }
 
@@ -249,7 +260,7 @@ main > section{
     #projets article img{
         width: 100%;
     }
-    #skill > article{
+    .skill > article{
         width: 40%;
         padding: 10px 10px 10px;
     }

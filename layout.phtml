@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="style/main.js"></script>
@@ -18,9 +19,12 @@
                 <h1>
                     Vincent Caraty <br> Développeur Intégrateur Web 
                 </h1>
-                <h3>
-                    Poste actuel : en recherche d'emploi
-                </h3>
+                <div class="tlt-info">
+                    <h3>
+                        Poste actuel : en recherche d'emploi
+                    </h3>
+                    <p>Dernière mise à jour : Dimanche 05 Juillet 2020</p>
+                </div>
             </div>
             <div id="photo" class="img-150 col ard al-center">
                 <p><img src="img/vincent_photo.png" alt=""></p>
@@ -34,7 +38,7 @@
                     <li><a href="#projets">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a target="_blank" title="lien vers linkedin" href="https://www.linkedin.com/in/vincent-caraty-a517ba198/"><i class="fab fa-linkedin"></i></a>
-                    <a target="_blank" title="télécharger mon CV" href="img/Caraty_Vincent_CV.pdf"><i class="fas fa-file-download"></i>CV</a></li>
+                    <a target="_blank" title="télécharger mon CV" href="img/Caraty_Vincent_CV.pdf"><i class="fas fa-file-download"></i> CV</a></li>
                 </ul>
             </nav>
             <nav class="mobile">
@@ -49,6 +53,7 @@
     </header>
     <main>
         <section id="presentation">
+            <h2>Présentation</h2>
             <p>Passionné depuis mes jeunes années par tout ce qui touche l'informatique j'ai commencé dans la restauration, 
                 un BEP à Montargis puis une mention complémentaire en sommellerie dans la belle ville de Tours.</p>
             <p>Une superbe expérience qui m'a permis pendant quinze ans de me former sur la régularité du travail, le déploiement de capacités par l'auto apprentissage, 
@@ -57,46 +62,49 @@
                 Leurs proposant de créer une plateforme d'échange où tout le monde pourrait échanger ses impressions 
                 sans à avoir à se connecter au jeu, les sites de ce genre étaient rares et Facebook trop peu 
                 utilisé encore à ce moment-là! Notre site doté d'un tchat, d'articles et d'un forum, 
-                a pris forme grâce aux informations et tutoriel du site-du-zero désormais appelé "
-                <a target="_blank" href="https://openclassrooms.com/">openclassrooms</a>" 
+                a pris forme grâce aux informations et tutoriel du site-du-zero désormais appelé 
+                <a target="_blank" href="https://openclassrooms.com/">Openclassrooms</a> 
                 dont les valeurs ne sont plus à prouver aujourd'hui. 
                 Site fermé depuis quelques années maintenant malheureusement.</p>
-            <p>Ayant eu pas mal d'aventures dans divers restaurants (hôtel-restaurant pour la plupart) et ayant passé mes dernières années en tant que maître d'hôtel, 
+            <p>Ayant eu pas mal d'aventures dans divers entreprises (hôtel-restaurant pour la plupart) travaillant ses dernières années en tant que maître d'hôtel, 
                 j'ai décidé de transformer ma passion en métier!</p>
-            <p>Une formation de développeur intégrateur web à la 3W Académie pour confirmer les connaissances que j'ai rabâchées pendant des années, 
+            <p>Une formation de développeur intégrateur web à la <a target="_blank" href="https://3wa.fr">3W Académie</a> pour confirmer les connaissances que j'ai rabâchées pendant des années, 
                 ça m'a permis de voir ce qu'il fallait faire exactement, et surtout de cadrer correctement mon travail !</p>
         </section>
-        <section id="skill" class="row wrap btw">
-            <article><h3>PHP</h3><p><i class="fab fa-php"></i></p></article>
-            <article><h3>HTML</h3><i class="fab fa-html5"></i></article>
-            <article><h3>CSS</h3><i class="fab fa-css3-alt"></i></article>
-            <article><h3>JavaScript & Jquery</h3><i class="fab fa-js-square"></i></article>
-            <article><h3>Symfony</h3><i class="fab fa-symfony"></i></article>
-            <article><h3>SQL PhpMyAdmin</h3><i class="fas fa-database"></i></article>
-            <article><h3>Unity & C#</h3><i class="fab fa-unity"></i></article>
-            <article><h3>Visual-Studio Code</h3><img src="img/Visual_Studio_Code.png" alt=""></article>
+        <section id="skill" >
+            <h2>Compétences</h2>
+            <div   class="skill row wrap btw">
+                <article><h3>PHP</h3><p><i class="fab fa-php"></i></p></article>
+                <article><h3>HTML</h3><i class="fab fa-html5"></i></article>
+                <article><h3>CSS</h3><i class="fab fa-css3-alt"></i></article>
+                <article><h3>JavaScript & Jquery</h3><i class="fab fa-js-square"></i></article>
+                <article><h3>Symfony</h3><i class="fab fa-symfony"></i></article>
+                <article><h3>SQL PhpMyAdmin</h3><i class="fas fa-database"></i></article>
+                <article><h3>Unity & C#</h3><i class="fab fa-unity"></i></article>
+                <article><h3>Visual-Studio Code</h3><img src="img/Visual_Studio_Code.png" alt=""></article>
+
+            </div>
         </section>
         <section id="projets" class="center">
             <h2>Projets en cours</h2>
-            <p>Vous pouvez aussi retrouver la liste de mes projets en open source sur <a href="https://github.com/yenaulrik" target="_blanc">github</a> </p>
+            <p>Vous pouvez retrouver la liste de mes projets public Web et lua sur <a href="https://github.com/yenaulrik" target="_blanc">github</a> </p>
             <div class="row wrap btw">
-                <article data-page="SymBNB">
+                <article data-page="prestashop01">
                     <div>
                         <div>
-                            <h3>SymBNB</h3>
-                            <p><em>commencé le 01/04</em></p>
-                            <p>Projet Symfony de formation annimé par Lior Chamla</p>
+                            <h3>Prestashop</h3>
+                            <p><em>commencé le ?/?</em></p>
+                            <p>Projet en négaciation</p>
                             
                         </div>
                     </div>
-                    <p><img src="img/SymBNB.png" alt=""></p>
                 </article>
                 <article data-page="auto-newlife-2">
                     <div>
                         <div>
                             <h3>Auto-NewLife</h3>
                             <p><em>commencé le 01/03</em></p>
-                            <p>Refonte du projet précédent : html, css, bientôt js et php</p>
+                            <p>Projet en attente <br />refonte du projet précédent à la demande de l'entreprise</p>
                             
                         </div>
                         <p><img src="img/ANL-projet2.png" alt=""></p>
@@ -105,7 +113,19 @@
             </div>
             
             <h3>Projets terminés</h3>
+
             <div class="row wrap btw">
+                <article data-page="SymBNB">
+                    <div>
+                        <div>
+                            <h3>SymBNB</h3>
+                            <p><em>fini le 01/04</em></p>
+                            <p>Projet redémarré suite au changements du cours</p>
+                            
+                        </div>
+                    </div>
+                    <p><img src="img/SymBNB.png" alt=""></p>
+                </article>
                 <article data-page="gaming-site">
                     <div>
                         <div>
