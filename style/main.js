@@ -21,6 +21,9 @@ $(function(){
             case "SymBNB":
                 window.open("https://github.com/yenaulrik/SymBNB", '_blank');
                 break;
+            case "prestashop01":
+                window.open("https://github.com/yenaulrik", '_blank');
+                break;
             case "auto-newlife-2":
                 window.open("https://github.com/nadsud/anl-projet/tree/develop", '_blank');
                 break;
