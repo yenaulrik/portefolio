@@ -27,6 +27,9 @@ $(function(){
             case "auto-newlife-2":
                 window.open("https://github.com/nadsud/anl-projet/tree/develop", '_blank');
                 break;
+            case "projets-3wa":
+                window.open("https://github.com/yenaulrik/3wAcademy_projets", '_blank');
+                break;
             default:
                 break;
         }
